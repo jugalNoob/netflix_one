@@ -1,0 +1,1501 @@
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.first-netflix {
+
+
+    background-image: linear-gradient(to right, rgba(0, 0, 0,0.8)40%, rgba(0, 0, 0,0.1)), url("/img/vik.jpg");
+
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+
+.netflix-flex{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+.netflix-head{
+   
+margin-left: 20px;
+}
+
+
+.netflix-head{
+
+    color: rgb(255, 0, 0);
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing:0.2rem;
+    font-size: 1.5rem;
+
+}
+
+.nav ul{
+
+    display:flex;
+}
+
+.nav ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+
+.nav ul li a:link{
+
+text-decoration: none;
+text-transform: capitalize;
+font-family: 'Roboto', sans-serif;
+color: white;
+}
+
+
+.nav ul li a:visited{
+
+    text-decoration: none;
+text-transform: capitalize;
+font-family: 'Roboto', sans-serif;
+color: white;
+}
+
+
+
+.input{
+
+
+    margin-right: 20px;
+    border:1px solid white;
+    padding: 6px;
+}
+
+
+.input input[type="search"]{
+
+    border: none;
+    outline: none;
+   background-color: transparent;
+}
+
+
+.input input[type="search"]::placeholder{
+
+    color:white;
+
+
+}
+
+
+.input .fa{
+    color: white;
+}
+
+
+
+@media(max-width:835px)  and (min-width:649px){
+
+
+    .first-netflix {
+
+
+        background-image: linear-gradient(to right, rgba(0, 0, 0,0.8)40%, rgba(0, 0, 0,0.1)), url("/img/vik.jpg");
+    
+        width: 100%;
+        height: 800px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center
+    }
+    
+    
+    .netflix-flex{
+        display:flex;
+        width: 100%;
+        align-items: center;
+        height: 70px;
+        justify-content:space-between;
+    }
+    
+    
+    .netflix-head{
+       
+    margin-left: 20px;
+    }
+    
+    
+    .netflix-head{
+    
+        color: rgb(255, 0, 0);
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing:0.2rem;
+        font-size: 1.2rem;
+    
+    }
+    
+    .nav ul{
+    
+        display:flex;
+    }
+    
+    .nav ul li{
+        list-style: none;
+        margin: 7px;
+    }
+    
+    
+    .nav ul li a:link{
+    
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 0.8rem;
+    }
+    
+    
+    .nav ul li a:visited{
+    
+        text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 0.8rem;
+    }
+    
+    
+    
+    .input{
+    
+    
+        margin-right: 20px;
+        border:1px solid white;
+        padding: 6px;
+    }
+    
+    
+    .input input[type="search"]{
+    
+        border: none;
+        outline: none;
+       background-color: transparent;
+       width: 100px;
+    }
+    
+    
+    .input input[type="search"]::placeholder{
+    
+        color:white;
+    
+    
+    }
+    
+    
+    .input .fa{
+        color: white;
+    }
+
+
+
+}
+
+
+
+
+
+@media(max-width:649px)  and (min-width:446px){
+
+
+    .first-netflix {
+
+
+        background-image: linear-gradient(to right, rgba(0, 0, 0,0.8)40%, rgba(0, 0, 0,0.1)), url("/img/vik.jpg");
+    
+        width: 100%;
+        height: 800px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center
+    }
+    
+    
+    .netflix-flex{
+        display:flex;
+        width: 100%;
+        align-items: center;
+        height: 70px;
+        justify-content:space-between;
+    }
+    
+    
+    .netflix-head{
+       
+    margin-left: 10px;
+    }
+    
+    
+    .netflix-head{
+    
+        color: rgb(255, 0, 0);
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        
+        font-size: 0.6rem;
+    
+    }
+    
+    .nav ul{
+    
+        display:flex;
+    }
+    
+    .nav ul li{
+        list-style: none;
+        margin: 5px;
+    }
+    
+    
+    .nav ul li a:link{
+    
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 0.6rem;
+    }
+    
+    
+    .nav ul li a:visited{
+    
+        text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 0.6rem;
+    }
+    
+    
+    
+    .input{
+    
+    
+        margin-right: 10px;
+        border:1px solid white;
+        padding: 6px;
+    }
+    
+    
+    .input input[type="search"]{
+    
+        border: none;
+        outline: none;
+       background-color: transparent;
+       width: 70px;
+    }
+    
+    
+    .input input[type="search"]::placeholder{
+    
+        color:white;
+    
+    
+    }
+    
+    
+    .input .fa{
+        color: white;
+    }
+
+
+
+}
+
+
+/* 
+//446px meadi */
+
+
+
+
+
+@media(max-width:466px)  and (min-width:340px){
+
+
+    .first-netflix {
+
+
+        background-image: linear-gradient(to right, rgba(0, 0, 0,0.8)40%, rgba(0, 0, 0,0.1)), url("/img/vik.jpg");
+    
+        width: 100%;
+        height: 800px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center
+    }
+    
+    
+    .netflix-flex{
+        display:flex;
+        width: 100%;
+       
+        height: 70px;
+        justify-content:space-between;
+    }
+    
+    
+    .netflix-head{
+       
+    margin-left: 5px;
+    }
+    
+    
+    .netflix-head h1{
+    
+        color: rgb(255, 0, 0);
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing:0rem;
+        font-size: 0.9rem;
+    
+    }
+    
+    .nav ul{
+    
+        display:flex;
+    }
+    
+    .nav ul li{
+        list-style: none;
+        margin: 3px;
+    }
+    
+    
+    .nav ul li a:link{
+    
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 0.6rem;
+    }
+    
+    
+    .nav ul li a:visited{
+    
+        text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 0.6rem;
+    }
+    
+    
+    
+    .input{
+    
+    
+        margin-right: 5px;
+        border:1px solid white;
+        padding: 6px;
+    }
+    
+    
+    .input input[type="search"]{
+    
+        border: none;
+        outline: none;
+       background-color: transparent;
+       width: 50px;
+    }
+    
+    
+    .input input[type="search"]::placeholder{
+    
+        color:white;
+    
+    
+    }
+    
+    
+    .input .fa{
+        color: white;
+    }
+
+
+
+}
+
+
+
+
+.viking{
+
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.viking h1{
+    font-family: 'Dela Gothic One', cursive;
+    text-transform: uppercase;
+    color: white;
+letter-spacing:0.2rem;
+}
+
+
+
+.viking-flix{
+    display: flex;
+   margin-top: 40px;
+}
+
+
+.data{
+    margin: 10px;
+    
+}
+
+.data h1{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+ 
+    
+    
+}
+
+
+.number{
+    margin: 10px;
+
+}
+
+
+.number h1{
+
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background: red;
+   
+}
+
+
+.hour{
+
+    margin: 10px;
+    
+}
+
+.hour h1{
+    font-size: 1rem;
+
+    font-family: 'Roboto', sans-serif;
+        letter-spacing: 0.2rem;
+        color: gray;
+}
+
+
+
+
+.action{
+    margin: 10px;
+}
+
+.action h1{
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 1rem;
+    color: gray;
+}
+
+
+.viking p{
+    color:white;
+    width: 340px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    margin-top:25px
+}
+
+
+
+
+@media(max-width:427px) and (min-width:320px){
+
+
+    .viking{
+
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+    
+    .viking h1{
+        font-family: 'Dela Gothic One', cursive;
+        text-transform: uppercase;
+        color: white;
+    letter-spacing:0.2rem;
+    }
+    
+    
+    
+    .viking-flix{
+        display: flex;
+       margin-top: 40px;
+    }
+    
+    
+    .data{
+        margin: 7px;
+        
+    }
+    
+    .data h1{
+        font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
+        color: gray;
+     
+        
+        
+    }
+    
+    
+    .number{
+        margin: 7px;
+    
+    }
+    
+    
+    .number h1{
+    
+        font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        background: red;
+       
+    }
+    
+    
+    .hour{
+    
+        margin: 7px;
+        
+    }
+    
+    .hour h1{
+        font-size: 1rem;
+    
+        font-family: 'Roboto', sans-serif;
+            letter-spacing: 0.2rem;
+            color: gray;
+    }
+    
+    
+    
+    
+    .action{
+        margin: 7px;
+    }
+    
+    .action h1{
+        font-family: 'Roboto', sans-serif;
+    
+        font-size: 1rem;
+        color: gray;
+    }
+    
+    
+    .viking p{
+        color:white;
+        width: 320px;
+        text-align: justify;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.9rem;
+        margin-top:25px
+    }
+    
+    
+
+
+
+}
+
+
+
+
+.play{
+    display:flex;
+    margin-left: 50px;
+    margin-top: 25px;
+    align-items: center;
+}
+
+
+.play-button{
+
+    margin: 10px;
+
+}
+
+#play{
+
+    border: none;
+    outline: none;
+    background:red;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding:5px 25px 5px 25px;
+    text-transform: capitalize;
+
+}
+
+.play-button .fa{
+    padding:5px;
+}
+
+
+
+
+.pause-button{
+
+    margin: 10px;
+}
+
+
+#pause{
+    border: none;
+    outline: none;
+
+    border: 1px solid gray;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding:5px 25px 5px 25px;
+    text-transform: capitalize;
+    background: transparent;
+
+}
+
+.pause-button .fa{
+    padding:5px;
+
+}
+
+.vidoes{
+
+
+
+    position: fixed;
+    margin-top: -20px;
+    margin-left: 45px;
+    overflow: hidden;
+    width: 0px;
+  
+
+
+
+}
+
+
+.vidoes video{
+
+
+
+}
+
+
+
+.movies{
+
+    width: 100%;
+    height: 1000px;
+    background-color:black;
+}
+
+/* scend row class start  */
+
+
+.feel-good{
+
+  
+   
+}
+
+
+.feel-good h1{
+
+    color: white;
+ 
+
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-left: 25px;
+}
+
+.feel-goods{
+    display:flex;
+    justify-content:center;
+    width: 100%;
+    flex-wrap: wrap;
+  
+}
+
+
+.one-img{
+
+    margin: 15px;
+ 
+
+}
+
+
+.one-img img{
+    border-radius: 10px;
+    width: 170px;
+    height: 150px;
+}
+
+.one-img img:hover{
+
+
+    transform:scale(1.1);
+    transition: 0.5s all;
+    
+}
+
+.two-img{
+
+    margin: 15px;
+
+
+}
+
+.two-img img{
+    border-radius: 10px;
+    width: 170px;
+    height: 150px;
+}
+
+.two-img img:hover{
+
+
+    transform:scale(1.1);
+    transition: 0.5s all;
+    
+}
+
+.three-img{
+    margin: 15px;
+
+
+}
+
+.three-img img{
+    border-radius: 10px;
+    width: 170px;
+    height: 150px;
+}
+
+
+.three-img img:hover{
+
+
+    transform:scale(1.1);
+    transition: 0.5s all;
+    
+}
+
+.four-img{
+
+    margin: 15px;
+
+
+}
+
+
+.four-img img{
+    border-radius: 10px;
+    width: 170px;
+    height: 150px;
+}
+
+
+.four-img img:hover{
+
+
+    transition: 0.5s all;
+    transform:scale(1.1);
+    
+}
+
+
+.five-img{
+    margin: 15px;
+
+
+}
+
+
+.five-img img{
+    border-radius: 10px;
+    width: 170px;
+    height: 150px;
+}
+
+
+.five-img img:hover{
+
+
+    transform:scale(1.1);
+    transition: 0.5s all;
+    
+}
+
+
+
+/* media  start line 602px */
+
+
+@media(max-width:602px) and (min-width:340px){
+
+
+
+
+.feel-goods{
+    display:flex;
+    justify-content:center;
+    width: 100%;
+    flex-wrap: wrap;
+  
+}
+
+
+.one-img{
+
+    margin: 10px;
+ 
+
+}
+
+
+.one-img img{
+    border-radius: 10px;
+    width: 140px;
+    height: 130px;
+}
+
+.one-img img:hover{
+
+
+    transform:scale(1.1);
+    transition: 0.5s all;
+    
+}
+
+.two-img{
+
+    margin: 10px;
+
+
+}
+
+.two-img img{
+    border-radius: 10px;
+    width: 140px;
+    height: 130px;
+}
+
+.two-img img:hover{
+
+
+    transform:scale(1.1);
+    transition: 0.5s all;
+    
+}
+
+.three-img{
+    margin: 10px;
+
+
+}
+
+.three-img img{
+    border-radius: 10px;
+    width: 140px;
+    height: 130px;
+}
+
+
+.three-img img:hover{
+
+
+    transform:scale(1.1);
+    transition: 0.5s all;
+    
+}
+
+.four-img{
+
+    margin: 10px;
+
+
+}
+
+
+.four-img img{
+    border-radius: 10px;
+    width: 140px;
+    height: 130px;
+}
+
+
+.four-img img:hover{
+
+
+    transition: 0.5s all;
+    transform:scale(1.1);
+    
+}
+
+
+.five-img{
+    margin: 10px;
+
+
+}
+
+
+.five-img img{
+    border-radius: 10px;
+    width: 140px;
+    height: 130px;
+}
+
+
+.five-img img:hover{
+
+
+    transform:scale(1.1);
+    transition: 0.5s all;
+    
+}
+
+}
+
+
+/* second movies */
+
+
+
+.comedy{
+    margin-top:10px;
+}
+
+
+.comedy h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-left: 25px;
+}
+
+
+.comdey-movies{
+
+
+    display:flex;
+    justify-content:center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.comedy-one{
+
+    margin: 10px;
+}
+
+
+.comedy-one img{
+
+    border-radius: 10px;
+    width: 170px;
+    height: 150px;
+}
+
+
+
+.comedy-one img:hover{
+
+
+    transform:scale(1.1);
+    transition: 0.5s all;
+}
+
+
+
+
+
+.comedy-two img{
+
+    border-radius: 10px;
+    width: 170px;
+    height: 150px;
+    margin: 10px;
+}
+
+
+
+.comedy-two img:hover{
+
+
+    transform:scale(1.1);
+    transition: 0.5s all;
+}
+
+
+
+
+.comedy-three img{
+
+    border-radius: 10px;
+    width: 170px;
+    height: 150px;
+    margin: 10px;
+}
+
+
+
+.comedy-three img:hover{
+
+
+    transform:scale(1.1);
+    transition: 0.5s all;
+}
+
+
+
+
+
+.comedy-four img{
+
+    border-radius: 10px;
+    width: 170px;
+    height: 150px;
+    margin: 10px;
+}
+
+
+
+.comedy-four img:hover{
+
+
+    transform:scale(1.1);
+    transition: 0.5s all;
+}
+
+
+
+
+
+
+.comedy-five img{
+
+    border-radius: 10px;
+    width: 170px;
+    height: 150px;
+    margin: 10px;
+}
+
+
+
+.comedy-five img:hover{
+
+
+    transform:scale(1.1);
+    transition: 0.5s all;
+}
+
+
+
+
+
+@media (max-width:602px)  and (min-width:00){
+
+    .comedy{
+        margin-top:10px;
+    }
+    
+    
+    .comedy h1{
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        font-size: 2rem;
+        margin-left: 25px;
+    }
+    
+    
+    .comdey-movies{
+    
+    
+        display:flex;
+        justify-content:center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    .comedy-one{
+    
+        margin: 10px;
+    }
+    
+    
+    .comedy-one img{
+    
+        border-radius: 10px;
+        width: 140px;
+        height: 130px;
+    }
+    
+    
+    
+    .comedy-one img:hover{
+    
+    
+        transform:scale(1.1);
+        transition: 0.5s all;
+    }
+    
+    
+    
+    
+    
+    .comedy-two img{
+    
+        border-radius: 10px;
+        width: 140px;
+        height: 130px;
+        margin: 10px;
+    }
+    
+    
+    
+    .comedy-two img:hover{
+    
+    
+        transform:scale(1.1);
+        transition: 0.5s all;
+    }
+    
+    
+    
+    
+    .comedy-three img{
+    
+        border-radius: 10px;
+        width: 140px;
+        height: 130px;
+        margin: 10px;
+    }
+    
+    
+    
+    .comedy-three img:hover{
+    
+    
+        transform:scale(1.1);
+        transition: 0.5s all;
+    }
+    
+    
+    
+    
+    
+    .comedy-four img{
+    
+        border-radius: 10px;
+        width: 140px;
+        height: 130px;
+        margin: 10px;
+    }
+    
+    
+    
+    .comedy-four img:hover{
+    
+    
+        transform:scale(1.1);
+        transition: 0.5s all;
+    }
+    
+    
+    
+    
+    
+    
+    .comedy-five img{
+    
+        border-radius: 10px;
+        width: 140px;
+        height: 130px;
+        margin: 10px;
+    }
+    
+    
+    
+    .comedy-five img:hover{
+    
+    
+        transform:scale(1.1);
+        transition: 0.5s all;
+    }
+    
+
+    
+}
+
+
+
+
+/* 
+full black  background black  */
+
+
+
+
+@media(max-width:1020px) and (min-width:620px){
+
+
+
+    .movies{
+
+        width: 100%;
+        height: 1800px;
+        background-color:black;
+    }
+
+
+}
+
+
+
+
+
+
+@media(max-width:620px) and (min-width:300px){
+
+
+
+    .movies{
+
+        width: 100%;
+        height: 2100px;
+        background-color:black;
+    }
+
+
+}
+
+
+
+/* 
+footer line class start row */
+
+
+
+
+eigth line class start row */
+
+
+
+  .gray-eight{
+    width: 100%;
+    height: 7px;
+    background-color: gray;
+  }
+
+
+
+  .netflix-footer{
+
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: 500px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .footer-one{
+    margin: 50px;
+  }
+
+
+  .footer-one h1{
+
+    color:  rgb(85, 82, 82);
+              
+    font-family: 'Roboto', sans-serif;
+
+    padding: 10px;
+    font-size: 1rem;
+
+  }
+
+
+
+  .footer-two{
+    margin: 50px;
+}
+
+
+.footer-two h1{
+
+  color:  rgb(85, 82, 82);
+            
+  font-family: 'Roboto', sans-serif;
+
+  padding: 10px;
+  font-size: 1rem;
+
+}
+
+
+
+.footer-three{
+    margin: 50px;
+}
+
+
+.footer-three h1{
+
+  color:  rgb(85, 82, 82);
+            
+  font-family: 'Roboto', sans-serif;
+
+  padding: 10px;
+  font-size: 1rem;
+
+}
+
+
+
+.footer-four{
+    margin: 50px;
+}
+
+
+.footer-four h1{
+
+  color:  rgb(85, 82, 82);
+            
+  font-family: 'Roboto', sans-serif;
+
+  padding: 10px;
+  font-size: 1rem;
+
+}
+
+
+@media(max-width:933px) and (min-width:340px){
+ 
+    
+
+
+    .netflix-footer{
+
+        display: flex;
+        width: 100%;
+        background-color: black;
+        height: 550px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+    
+      .footer-one{
+        margin: 20px;
+      }
+    
+    
+      .footer-one h1{
+    
+        color:  rgb(85, 82, 82);
+                  
+        font-family: 'Roboto', sans-serif;
+    
+        padding: 10px;
+        font-size: 0.7rem;
+    
+      }
+    
+    
+    
+      .footer-two{
+        margin: 20px;
+    }
+    
+    
+    .footer-two h1{
+    
+      color:  rgb(85, 82, 82);
+                
+      font-family: 'Roboto', sans-serif;
+    
+      padding: 10px;
+      font-size: 0.7rem;
+    
+    }
+    
+    
+    
+    .footer-three{
+        margin: 25px;
+    }
+    
+    
+    .footer-three h1{
+    
+      color:  rgb(85, 82, 82);
+                
+      font-family: 'Roboto', sans-serif;
+    
+      padding: 10px;
+      font-size: 0.7rem;
+    
+    }
+    
+    
+    
+    .footer-four{
+        margin: 20px;
+    }
+    
+    
+    .footer-four h1{
+    
+      color:  rgb(85, 82, 82);
+                
+      font-family: 'Roboto', sans-serif;
+    
+      padding: 10px;
+      font-size: 0.7rem;
+    
+    }
+    
+}
